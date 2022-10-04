@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Playfair+Display&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+    background: url('../images/bg.jpg') no-repeat center;
+    background-size: cover;
+	background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+    color: #fff;
+	margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 300;
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+}
+.movie-btn{
+	font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    color: #fff;
+    border-radius: 1.1rem;
+    border: 1px solid #ad5110;
+    outline: none;
+	background: transparent;
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	-webkit-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+	transition: all .3s ease-in-out; 
+}
+.movie-btn-2{
+	font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    color: #fff;
+    border-radius: 15px;
+	border: 1px solid #ad5110;
+    outline: none;
+    font-family: 'Playfair Display', serif;
+    background-color: #ad5110;
+	display: inline-block;
+    -webkit-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+	transition: all .3s ease-in-out; 
+}
+.movie-btn:hover{
+	background-color:  #ad5110;
+}
+.movie-btn-2:hover{
+	border: 1px solid #ad5110;
+	background: transparent;
+}
+
+.movie-template{
+	overflow-x: hidden;
+}
+.logo-item{
+	flex-wrap: wrap;
+}
+.logo-item a img{
+	width: 12%;
+}
+.ticket-item{
+	float: right;
+}
+i{
+    font-size: 15px;
+    line-height: 1;
+    color: white;
+
+}
+.main-title{}
+.cast span{
+	display: block;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.cast img{
+	width: 3.5rem;
+    height: 4.55rem;
+    margin-right: 0.55rem;
+    cursor: pointer;
+	transition: .3s;
+}
+.cast img:hover{
+	transform: translateY(-8px);
+}
+.poster{
+	float: right;
+    flex-wrap: wrap;
+}
+.poster img{
+    width: 360px;
+	height: 360px;
+}
+.poster img:hover{
+	filter: brightness(0.8);
+}
+
+.popular-part{}
+.pop-movie img{
+	cursor: pointer;
+	transition: .3s;
+}
+.pop-movie img:hover{
+	transform: translateY(-12px);
+}
+
+.movie-banner{}
+.recent-part{}
+.recent-movie img{
+	cursor: pointer;
+	transition: .3s;
+}
+.recent-movie img:hover{
+	transform: translateY(-12px);
+}
+.subscribe-part{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 350px;
+	background: url("../images/sub-bg.png") no-repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+.sub-title{
+	color: #ad5110;
+}
+.sub-disc{
+	color: #000;
+	font-weight: 600;
+}
+.sub-area{
+	position: absolute;
+	top: 60%;
+    left: 30%;
+}
+input{
+    width: 35%;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 17px 10px;
+    display: inline-block;
+	outline: none;
+	border-radius: 10px 0 0 10px;
+	background-color: #fff;
+    border: 1px solid #dee3df;
+}
+.sub-btn{
+    font-size: 13px;
+    padding: 17px 10px;
+    margin-left: -2%;
+    color: #fff;
+    border: 1px solid #ad5110;
+    outline: none;
+	border-radius: 0 10px 10px 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #ad5110;
+	transition: .3s;
+}
+.sub-btn:hover{
+	outline: none;
+	color: #fff;
+	background-color: #884515;
+}
+footer{
+	width: 100%;
+	background-color: #000;
+}
+
+.footer-menu{
+	margin-top: 25px;
+}
+.footer-title h4{
+	position: relative;
+	cursor: pointer;
+	padding-bottom: 15px;
+	transition: .3s;
+}
+.footer-title h4:hover{
+	color: #c5d6da;
+}
+.footer-title h4::after{
+	content: "";
+	width: 15%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #c5d6da;
+}
+
+.nav-item{
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.nav-item a{
+	color: #f4f0ee;
+	font-family: 'Playfair Display', serif;
+	transition: .3s;
+}
+.nav-item a:hover{
+	color: #ad5110;
+}
+.nav-item img{
+	margin-top: 5px;
+	width: 50%;
+}
+
